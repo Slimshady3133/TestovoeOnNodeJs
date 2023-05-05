@@ -1,0 +1,52 @@
+.one-blog {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.one-blog h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.one-blog .date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.one-blog .author {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.one-blog .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.one-blog button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.one-blog button:hover {
+  background-color: #0069d9;
+}
+
+.one-blog button.delete {
+  background-color: #dc3545;
+}
+
+.one-blog button.delete:hover {
+  background-color: #c82333;
+}
